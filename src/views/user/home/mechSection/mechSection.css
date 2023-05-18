@@ -1,0 +1,284 @@
+.relative {
+  position: relative;
+}
+
+.image_box {
+  /* width: 100%;
+  height: auto; */
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 2px;
+  /* padding-right: 20px; */
+}
+
+.card_img {
+  object-fit: cover;
+  /* margin: auto; */
+  /* max-height: 250px;
+  height: auto; */
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.newItems-wrapper .card_img {
+  /* height: 300px; */
+  max-height: 250px;
+  height: auto;
+}
+
+.newItems-wrapper .img_container,
+.mechSection-wrapper .mech-img-container {
+  max-height: 250px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+/* .mechSection-wrapper .img_container {
+  background-color: transparent;
+} */
+.details {
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+  /* bottom: 0; */
+  /* width: 100%;*/
+  /* padding: 14px 30px;  */
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  height: 65px;
+  /* height: auto; */
+}
+
+.mechSection-wrapper .details {
+  background-color: rgba(52, 47, 79, 1);
+  border-radius: 0 0 10px 10px;
+}
+
+.image_box:hover .details {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+}
+
+.mech_box {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  /* margin: 5px; */
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  max-width: 105px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 8px 9px; */
+  height: 31px;
+}
+
+.nft_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.creator_name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.image_box:hover .creator_name {
+  display: none;
+}
+
+.img_container {
+  background-color: rgba(52, 47, 79, 1);
+  border-radius: 10px;
+}
+
+.horizontal .slick-list {
+  height: 250px !important;
+  width: 200px !important;
+}
+
+.image_slider .slick-list {
+  transform: skew(350deg);
+  margin-left: -50px;
+  width: 2000px;
+}
+
+.mech-slider-image {
+  width: 700px;
+  height: 450px;
+}
+
+/* responsive */
+@media (max-width: 800px) {
+  .newItems-wrapper .card_img {
+    max-height: 300px;
+  }
+
+  .card_img {
+    height: 300px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 300px;
+    min-height: 300px;
+  }
+
+  .mechSection-wrapper .mech-img-container {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 600px) {
+  .newItems-wrapper .card_img {
+    max-height: 340px;
+  }
+
+  .card_img {
+    height: 340px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 340px;
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 375px) {
+  .newItems-wrapper .card_img {
+    max-height: 250px;
+  }
+
+  .card_img {
+    height: 250px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 250px;
+    min-height: 250px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card_img {
+    /* max-height: 300px; */
+    height: 300px;
+  }
+
+  .image_box {
+    margin-right: 3px;
+  }
+
+  .newItems-wrapper .card_img {
+    max-height: 300px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 300px;
+    min-height: 300px;
+  }
+
+  .mech-slider-image {
+    width: 700px;
+    height: 650px
+  }
+}
+
+@media (min-width: 1600px) {
+  .card_img {
+    /* max-height: 340px; */
+    height: 340px;
+  }
+
+  .image_box {
+    margin-right: 20px;
+  }
+
+  .newItems-wrapper .card_img {
+    max-height: 340px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 340px;
+    min-height: 340px;
+  }
+
+  .nft_name {
+    font-size: 20px;
+  }
+
+  .creator_name,
+  .nft_cos,
+  .likes {
+    font-size: 18px;
+  }
+
+  .like_count .heart_icon {
+    max-width: 18px;
+  }
+
+  .mech_box {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1975px) {
+  .card_img {
+    /* max-height: 400px; */
+    height: 400px;
+  }
+
+  .newItems-wrapper .card_img {
+    max-height: 400px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 400px;
+    min-height: 400px;
+  }
+
+  .nft_name {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .mech_box {
+    font-size: 24px;
+    height: 38px;
+  }
+}
+
+@media (min-width: 3000px) {
+  .card_img {
+    /* max-height: 580px; */
+    height: 580px;
+  }
+
+  .newItems-wrapper .card_img {
+    max-height: 580px;
+  }
+
+  .newItems-wrapper .img_container,
+  .mechSection-wrapper .mech-img-container {
+    max-height: 580px;
+    min-height: 580px;
+  }
+}

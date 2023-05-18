@@ -1,0 +1,31 @@
+/* .nftDetailsWrapper .sub-header-title {
+  margin-bottom: 0;
+} */
+.nftdetails-image-label.ability {
+  left: 30%;
+  top:3px;
+}
+.nftdetails-image-label.skins {
+  left: 20px;
+  top:10px;
+}
+.nftdetails-image-label.customization {
+  left: 140px;
+  top:10px;
+}
+.nftdetails-image-view-label .view {
+  width: 120px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nftdetails-image-view-label .view .view-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143%;
+  color: #fff;
+}

@@ -1,0 +1,85 @@
+.bid_thead {
+	font-weight: 500;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.bid_nft_img {
+	max-width: 44px;
+	height: auto;
+	margin: 5px 0;
+	margin-right: 20px;
+}
+
+.bid_nft {
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-left: 12px;
+}
+
+.bid_price {
+	font-weight: 700;
+	font-size: 16px;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+.bid_time {
+	font-weight: 700;
+	font-size: 16px;
+	color: #3C82F8;
+}
+
+.bid_nft_name {
+	padding: 15px 0;
+}
+
+.bid_table .bid_table .bid_tb {
+	vertical-align: middle;
+}
+
+.cd_head {
+	font-weight: 700;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 50px;
+}
+
+.bid_thead {
+	font-weight: 500;
+	font-size: 14px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+table th:first-child {
+	border-radius: 10px 0 0 10px;
+	padding-left: 20px;
+}
+
+table th:last-child {
+	border-radius: 0 10px 10px 0;
+	padding-right: 10px;
+}
+
+.bid_accepted {
+	font-weight: 700;
+	font-size: 16px;
+	color: #00C04D;
+}
+
+.bid_lost {
+	font-weight: 700;
+	font-size: 16px;
+	color: #FF4848;
+}
+
+.bid_nft:hover {
+	color: white;
+}
+
+.bid_table .p_100 {
+	padding-top: 80px;
+}

@@ -1,0 +1,30 @@
+.coming-soon-container {
+  /* background-image: url('../../../assets//images/coming_soon_bg.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+}
+
+.coming-soon-text {
+  font-family: 'Conthrax';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 767px) {
+  .coming-soon-text {
+    font-size: 45px;
+  }
+}

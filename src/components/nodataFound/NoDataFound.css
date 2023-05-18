@@ -1,0 +1,17 @@
+.no-data-found-label {
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #e5e5e5;
+  color: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  width: 100%;
+}
+.no-data-found-img {
+  width: 150px;
+  margin: 0 auto;
+}

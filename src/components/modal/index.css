@@ -1,0 +1,621 @@
+.successModal .btn.btn-primary {
+  background: #3c82f8;
+  border-radius: 100px;
+  width: 80px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 0 auto;
+}
+
+.modal .modal-content {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border: 0px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.modal .modal-content::before {
+  content: '';
+  display: block;
+  height: calc(100% - calc(2px * 2));
+  width: calc(100% - calc(2px * 2));
+  border-radius: calc(10px - 2px);
+  background: #060606;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -1;
+}
+
+/* FUSION MODAL */
+.fusionModal .modal-dialog {
+  max-width: 700px;
+  width: 100%;
+}
+
+.fusionModal .modal-content {
+  padding: 53px 50px 50px 50px;
+  color: #fff;
+}
+
+.fusionModal .modalTitile {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fusionModal .modalText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* padding-right: 30px; */
+  margin: 0 auto;
+  /* text-transform: capitalize; */
+}
+
+.fusionModal .modal-btn-container .modal-btn {
+  justify-content: flex-end;
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #fff;
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border: none;
+}
+
+.fusionModal .modal-btn-container .modal-btn.cancel-modal-btn {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* logout modal */
+.logoutModal .modal-dialog {
+  max-width: 500px;
+  width: 100%;
+}
+
+.logoutModal .modal-dialog .modal-btn-container {
+  justify-content: space-around;
+}
+
+.logoutModal .modal-dialog .modal-btn {
+  padding: 5px 0px;
+  height: auto;
+  width: 40%;
+}
+
+/* Edit profile modal */
+.edit-profile-modal .modal-dialog {
+  max-width: 600px;
+  width: 100%;
+}
+
+.edit-profile-modal .modal-content {
+  padding: 30px 43px 44px 47px;
+  color: #fff;
+}
+
+.edit-profile-modal .profile-img-container .profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-profile-modal .profile-img-container {
+  width: 100px;
+  height: 100px;
+}
+
+.edit-profile-modal .profile-img-container .edit {
+  position: absolute;
+  right: -5px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+.edit-profile-modal .edit-img {
+  width: 18px;
+  height: 18px;
+}
+
+.edit-profile-modal .form-group {
+  flex-direction: column;
+}
+
+.edit-profile-modal .modal-form-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.edit-profile-modal .modal-form-control {
+  padding: 18px 15px;
+  background-color: #0a0f17;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  caret-color: white;
+}
+
+.edit-profile-modal input.modal-form-control {
+  height: 50px;
+}
+
+.edit-profile-modal .form-control:focus {
+  color: #fff;
+  background-color: #0a0f17;
+  border-color: rgba(255, 255, 255, 1);
+  outline: 0;
+  box-shadow: none;
+}
+
+.update-btn {
+  height: 50px;
+  background: #3c82f8;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* auth-modal */
+/* login modal */
+.authModal .modal-dialog {
+  max-width: 600px;
+  width: 100%;
+}
+
+.authModal {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.authModal .modal-content {
+  padding: 27px 30px 50px 50px;
+}
+
+.authModal.signUpModal .modal-content {
+  padding: 20px 30px 30px 50px;
+}
+
+.auth-modal-content-container {
+  margin-top: 20px;
+}
+
+.auth-modal-content-container .auth-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.auth-modal-content-container .modal-form-control,
+.nftModal-content-container .modal-form-control {
+  background: rgba(60, 130, 248, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  caret-color: white;
+}
+
+.auth-modal-content-container input.modal-form-control {
+  height: 40px;
+}
+
+.nftModal-content-container input.modal-form-control {
+  height: 50px;
+}
+
+.auth-modal-content-container .modal-form-control:focus,
+.nftModal-content-container .modal-form-control:focus {
+  background: rgba(60, 130, 248, 0.07);
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.forgot-password {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  width: 115px;
+  margin-left: auto;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.auth-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  background: #3c82f8;
+  border-radius: 100px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.new-user {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.new-user .sign-up-link {
+  color: rgba(60, 130, 248, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.new-user .sign-up-link:hover {
+  text-decoration: underline;
+}
+
+.auth-checkbox-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.auth-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.otp-container .form-control.otp-input {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-container .form-control.otp-input:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* success modal */
+/* .successModal {
+  padding: 40px;
+} */
+.modal.successModal .modal-content::before {
+  background: #010937;
+}
+
+.successModal .modal-dialog {
+  max-width: 450px;
+  width: 100%;
+}
+
+.successModal .modal-content {
+  padding: 27px 30px 30px 30px;
+  color: #fff;
+}
+
+.successModal .success-icon {
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.successModal .success-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+  margin-top: 20px;
+  word-break: break-word;
+  /* margin-bottom: 20px; */
+}
+
+/* nftModal */
+.nftModal .modal-dialog {
+  max-width: 600px;
+  width: 100%;
+}
+
+.nftModal .modal-content {
+  padding: 27px 50px 50px 50px;
+  color: #fff;
+}
+
+.nftModal .nftModal-content-container .modalTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.nftModal-content-container .nftlabel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.nft-tabs.nav-tabs {
+  background: #060606;
+  border: 1px solid #3c82f8;
+  border-radius: 6px;
+  --bs-nav-tabs-border-width: 0px;
+  margin-bottom: 30px;
+}
+
+.nft-tabs.nav-tabs .nav-item {
+  width: 50%;
+}
+
+.nft-tabs.nav-tabs .nav-item .nav-link {
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3c82f8;
+  border-width: 0;
+}
+
+.nft-tabs.nav-tabs .nav-item .nav-link.active {
+  background: #3c82f8;
+  color: #fff;
+  border: none;
+}
+
+.fee-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0;
+}
+
+.nftModal-content-container .modal-form-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.nftModal-content-container .nft-select option {
+  background: #000;
+}
+
+.nftModal-content-container .nft-select .arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 10px;
+}
+
+.nftModal-content-container .duration-input {
+  padding-left: 50px;
+}
+
+.nftModal-content-container .calendar {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logOut-btn-container {
+  margin-top: 2rem;
+}
+
+.successModal.network_switch .modal-content {
+  padding: 20px;
+  color: #fff;
+}
+
+.btn.btn-primary.network_switch_btn {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border-radius: 100px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.link_wallet {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .fusionModal .modal-content {
+    padding: 33px 30px 30px 30px;
+  }
+
+  .fusionModal .modalText {
+    padding-right: 0;
+  }
+
+  .edit-profile-modal .modal-content {
+    padding: 33px 30px 30px 30px;
+  }
+
+  .authModal .modal-content {
+    padding: 27px 30px 30px 30px;
+  }
+
+  .successModal .modal-content {
+    padding: 27px 30px 30px 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .fusionModal {
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 475px) {
+
+  /* .edit-profile-modal {
+    padding-left: 0;
+    margin: 0;
+  } */
+  .authModal .modal-dialog,
+  .successModal .modal-dialog {
+    margin: 0;
+  }
+
+  .edit-profile-modal .modal-dialog {
+    padding-right: 1rem;
+  }
+
+  .edit-profile-modal .modal-content {
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .fusionModal .modal-btn-container .modal-btn {
+    width: 100%;
+  }
+
+  .authModal .modal-content {
+    padding: 27px 15px 30px 15px;
+  }
+
+  .successModal .modal-content {
+    padding: 27px 15px 30px 15px;
+  }
+
+  .otp-container .form-control.otp-input {
+    width: 40px;
+    height: 40px;
+  }
+
+  .otp-container .form-control.otp-input:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .auth-modal-content-container .auth-title {
+    font-size: 18px;
+  }
+
+  .auth-modal-content-container .modal-form-control,
+  .nftModal-content-container .modal-form-control {
+    padding: 13px 13px;
+    font-size: 16px;
+  }
+
+  .new-user {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 2075px) {
+
+  .authModal .modal-dialog,
+  .edit-profile-modal .modal-dialog,
+  .nftModal .modal-dialog {
+    max-width: 1000px;
+  }
+
+  .auth-modal-content-container .auth-title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+
+  .auth-modal-content-container input.modal-form-control {
+    height: 60px;
+  }
+
+  .auth-modal-content-container .modal-form-control,
+  .nftModal-content-container .modal-form-control {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .forgot-password {
+    font-size: 22px;
+    line-height: 32px;
+    width: 185px;
+  }
+
+  .fa-eye-slash:before,
+  .fa-eye:before {
+    font-size: 20px;
+  }
+
+  .modal-cross-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .auth-btn {
+    height: 60px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .new-user {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,13 @@
+.plus-btn{
+border: none;
+background: transparent;
+margin-top: 15px;
+}
+
+.plus-btn.expand_arrow{
+transform: rotate(180deg);
+}
+
+img.expand_arrow {
+  transform: rotate(180deg);
+}

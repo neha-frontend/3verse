@@ -1,0 +1,162 @@
+.widget_heading {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.view_all_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.heart_icon {
+  max-width: 24px;
+  width: 100%;
+  height: auto;
+}
+
+.like_count {
+  /* position: absolute;
+  top: 20px;
+  right: 45px; */
+  /* max-width: 14px; */
+  width: 100%;
+  justify-content: flex-end;
+}
+.like_count .heart_icon {
+  max-width: 14px;
+}
+
+.likes {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.mech_type {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nft_cost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #3c82f8;
+}
+.newItemSlider {
+  /* margin-left: -10px; */
+}
+.buy_btn {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border-radius: 10px;
+  /* max-width: 110px; */
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  height: 30px;
+}
+
+.rent_btn {
+  background: #1f1f1f;
+  border-radius: 10px;
+  /* max-width: 110x; */
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 10px;
+  height: 30px;
+}
+
+.display_btn {
+  margin-top: 18px;
+  display: flex;
+  opacity: 0;
+}
+
+.new_item_box {
+  /* width: 100%;
+  height: auto; */
+  cursor: pointer;
+}
+/* .item_box .img_container {
+  margin: 15px 12px;
+} */
+.new_item_box .item_bx,
+.item_box {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.new_item_box:hover .item_bx,
+.item_box:hover {
+  border: 1px solid #3c82f8;
+}
+/* .new_item_bx .display_btn,
+.item_box .display_btn{
+  margin: 18px 12px;
+} */
+.new_item_bx:hover .display_btn,
+.item_box:hover .display_btn {
+  display: flex;
+  opacity: 1;
+}
+/* .new_item_bx .new_item_details,
+.item_box .new_item_details {
+  padding: 0 12px;
+} */
+
+.item_box {
+  padding: 10px;
+  margin-right: 2px;
+  transition: 0.2s ease;
+}
+/* responsive */
+@media (min-width: 1400px) {
+  .item_box {
+    margin-right: 3px;
+  }
+}
+@media (min-width: 1600px) {
+  .nft_cost,
+  .mech_type,
+  .likes {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .buy_btn,
+  .rent_btn {
+    height: 40px;
+    font-size: 16px;
+  }
+  .item_box {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 2075px) {
+  .nft_cost,
+  .mech_type {
+    font-size: 22px;
+  }
+  .likes {
+    font-size: 28px;
+    line-height: 22px;
+  }
+  .like_count .heart_icon {
+    max-width: 24px;
+  }
+}

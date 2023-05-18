@@ -1,0 +1,17 @@
+span.react-datepicker__year-read-view--selected-year {
+  margin-left: 20px;
+}
+
+.bg-none .form-control.is-invalid {
+  background-color: transparent;
+  background-image: none;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.password-eye-icon {
+  top: calc(50% - 8px);
+  right: 10px;
+}

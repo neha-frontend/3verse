@@ -1,0 +1,96 @@
+.whitelist-container {
+  width: 80%;
+  max-width: 750px;
+  margin: auto;
+  color: #fff;
+}
+.whitelist-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.whitelist-container .mint-form-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.mint-btn {
+  max-width: 400px;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+  background: #3c82f8;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.mint-btn.connect_wallet_mint_btn{
+  margin-top: 80px;
+}
+.whitelist-container .form-control.mint-form-control {
+  background: #0a0f17;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 18px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+  caret-color: white;
+}
+.whitelist-container input.form-control.mint-form-control {
+  height: 50px;
+}
+.whitelist-container .form-control:focus {
+  border-color: rgba(255, 255, 255, 1);
+  outline: 0;
+  box-shadow: none;
+}
+@media (max-width: 475px) {
+  .whitelist-container .mint-form-label {
+    font-size: 16px;
+  }
+  .whitelist-title {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 25px;
+  }
+  .whitelist-container .form-control.mint-form-control {
+    font-size: 14px;
+    line-height: 18px;
+    /* margin-bottom: 30px; */
+  }
+  .whitelist-container .mint-form-label {
+    margin-bottom: 10px;
+  }
+  .whitelist-container input.form-control.mint-form-control {
+    height: 40px;
+  }
+}
+
+@media (min-width: 2075px) {
+  .whitelist-container {
+    max-width: 1200px;
+  }
+  .whitelist-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+  .whitelist-container .mint-form-label {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .whitelist-container input.form-control.mint-form-control {
+    height: 70px;
+  }
+  .mint-btn {
+    height: 60px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

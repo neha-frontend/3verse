@@ -1,0 +1,20 @@
+export const { REACT_APP_MARKETPLACE_ADDRESS } = process.env;
+export const { REACT_APP_MECH_ADDRESS } = process.env;
+export const { REACT_APP_EMECH_ADDRESS } = process.env;
+export const { REACT_APP_INFURAURL } = process.env;
+export const { REACT_APP_PINATA_API_KEY } = process.env;
+export const { REACT_APP_PINATA_SECRET_KEY } = process.env;
+export const { REACT_APP_EVE_CONTRACT } = process.env;
+export const { REACT_APP_PINATA_URL } = process.env;
+export const { REACT_APP_POLYGON_CHAIN } = process.env;
+export const { REACT_APP_DEFAULT_MECHPOD_PREVIEW_IMAGE } = process.env;
+export const { REACT_APP_DEFAULT_MECHPOD_ORIGINAL_IMAGE } = process.env;
+export const { REACT_APP_BANNER_VIDEO } = process.env;
+export const { REACT_APP_MECH_MODAL } = process.env;
+export const { REACT_APP_CONVERT_API_SECRET_KEY } = process.env;
+export const { REACT_APP_ABOUT_IMG_1 } = process.env;
+export const { REACT_APP_ABOUT_IMG_2 } = process.env;
+export const { REACT_APP_ABOUT_IMG_3 } = process.env;
+export const { REACT_APP_MINT_SECRET_KEY } = process.env;
+export const { REACT_APP_RPC_URL } = process.env;
+

@@ -1,0 +1,123 @@
+.wallet_head {
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  color: #3c82f8;
+}
+
+.wallet-wrapper .sub-header-title {
+  margin-bottom: 0;
+}
+
+.wallet_desc {
+  font-weight: 400;
+  font-size: 36px;
+  align-items: center;
+  color: #ffffff;
+  line-height: 48px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.wallet-card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 20px 0 10px 0;
+}
+
+.wallet-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.wallet_card {
+  /* max-width: 366px; */
+  border-radius: 10px;
+  /* width: 100%; */
+  text-align: center;
+  padding: 40px 30px 50px 30px;
+  background: #121212;
+  border-radius: 10px;
+  color: #ffffff;
+  /* margin-right: 40px; */
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.wallet_card:hover {
+  border: 3px solid #3c82f8;
+}
+
+.wallet_main {
+  margin: 32px auto;
+}
+
+.wallet_diconnect:hover {
+  color: #3c82f8;
+  text-decoration: underline;
+}
+
+/* connect wallet css */
+
+.walletconnect-qrcode__base.animated.fadeIn .walletconnect-modal__base {
+  max-height: 600px;
+  overflow: auto;
+}
+
+.walletconnect-modal__base .walletconnect-modal__headerLogo {
+  height: 21px;
+  margin-left: 18px;
+  z-index: 10000;
+}
+
+.walletconnect-modal__base .walletconnect-modal__header {
+  align-items: center;
+  display: flex;
+  height: 26px;
+  left: 0;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  width: 97%;
+  margin-bottom: 20px;
+}
+
+.walletconnect-modal__base .walletconnect-modal__close__wrapper {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  background: white;
+  border-radius: 26px;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+/* responsive */
+@media(max-width:767px) {
+  .wallet_desc {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width:2075px) {
+
+  .wallet_head,
+  .wallet-card-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .wallet-card-text {
+    font-size: 28px;
+    line-height: 37px;
+  }
+}

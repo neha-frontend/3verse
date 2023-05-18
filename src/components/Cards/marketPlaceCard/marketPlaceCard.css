@@ -1,0 +1,170 @@
+.marketplace_card .marketplace_box {
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marketplace_card .marketplace_img {
+  max-width: 366px;
+  width: 100%;
+  height: auto;
+}
+
+.market_heart_icon {
+  max-width: 14px;
+  width: 100%;
+  height: 18px;
+}
+
+.nft_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.nft_cost {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #3c82f8;
+}
+
+.likes {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.mech_type {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mech_card .gmech_box,
+.gmech_card .gmech_box {
+  cursor: pointer;
+  padding: 20px;
+  max-width: 186px;
+  width: 100%;
+  margin: auto;
+  height: 300px;
+}
+
+.mech_card .gmech_img,
+.gmech_card .gmech_img {
+  max-width: 186px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sale_card .sale_box,
+.ability_card .sale_box {
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  padding-left: 0;
+}
+
+.sale_card .sale_img,
+.ability_card .sale_img {
+  /* max-width: 280px; */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  min-height: 184px;
+}
+
+.marketplace_card {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.marketplace_card:hover {
+  border: 1px solid #3c82f8;
+}
+
+.marketplace_card:hover .display_btn {
+  display: flex;
+  opacity: 1;
+}
+
+.rent_icon {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  max-width: 90px;
+  width: 100%;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rent_slot {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.slick-slide.slick-active.slick-center .rent_icon{
+  top:10px;
+}
+/* responsive */
+@media (min-width: 1600px) {
+  .nft_name {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2075px) {
+  .nft_name {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .nft_cost,
+  .mech_type {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .market_heart_icon {
+    max-width: 18px;
+    width: 100%;
+    height: 22px;
+  }
+}
+@media (min-width:3000px){
+  .nft_name {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .nft_cost,
+  .mech_type {
+    font-size: 29px;
+    line-height: 34px;
+  }
+}
+@media(min-width:4000px){
+  .nft_name {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}

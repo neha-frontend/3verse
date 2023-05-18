@@ -1,0 +1,58 @@
+.walletSidebar-wrapper {
+  background: #060606;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  max-width: 500px;
+  width: 100%;
+  border:2px solid rgba(93, 241, 255, 1);
+}
+.walletSidebar-wrapper .walletSidebar-header {
+  height: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 25px 30px;
+}
+.walletSidebar-wrapper .walletSidebar-header-profile-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.walletSidebar-wrapper .walletSidebar-header-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: #fff;
+}
+.walletSidebar-wrapper .walletSidebar-content {
+  padding: 20px 30px;
+  color: #fff;
+}
+.walletSidebar-wrapper .walletSidebar-content .walletSidebar-content-text {
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+  line-height: 21px;
+}
+.walletSidebar-content-button {
+  background: rgba(60, 130, 248, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  height: 70px;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+.walletSidebar-content-button .walletSidebar-content-button-img{
+    min-width: 70px;
+}
+.walletSidebar-content-button .walletSidebar-content-button-label{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}

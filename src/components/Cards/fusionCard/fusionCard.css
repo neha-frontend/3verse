@@ -1,0 +1,56 @@
+/* fusion card */
+
+.fusion-card-container {
+  position: relative;
+  max-width: 300px;
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 5px solid transparent;
+}
+
+.fuse-container .fusion-card-container {
+  max-width: 300px;
+  height: 280px;
+}
+
+.fusionImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fusion-card-container.active {
+  border-color: #d4af37;
+  opacity: 1;
+}
+
+.fusion-card-container.opacity-50 {
+  opacity: 0.5;
+}
+
+.fusion-card-value {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 700;
+}
+
+/* responsive */
+@media (max-width: 475px) {
+  .fusion-card-container.fuse-card {
+    height: 124px;
+    background-size: cover;
+  }
+
+  .fusion-card-container {
+    max-width: 315px;
+    height: 295px;
+  }
+}

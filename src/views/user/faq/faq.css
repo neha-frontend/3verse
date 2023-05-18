@@ -1,0 +1,75 @@
+.cms_body {
+  margin: 45px auto;
+}
+
+.cms_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.cms_content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+/* faq-accordian */
+
+.faq-content .active {
+  background-color: #191919;
+  padding: 30px 30px 60px 30px;
+}
+
+.faq-content .active hr {
+  display: none;
+}
+.accordion-button:focus {
+  border-color: unset;
+  box-shadow: none;
+}
+.faq-body-container .accordion-item {
+  background-color: transparent;
+  color: #fff;
+  border: 0px;
+  border-bottom: 1px solid #252525;
+  padding: 30px 19px 30px 30px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.faq-body-container .accordion-header .accordion-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+}
+.faq-body-container .accordion-body {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px 70px 50px 0px;
+}
+.faq-body-container .accordion-button::after {
+  background-image: url('../../../../src/assets/images/layout/down-arrow.png');
+}
+.faq-body-container .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: none;
+}
+
+.faq-body-container .accordion-,
+.faq-body-container .accordion-button.collapsed {
+  background: transparent;
+  color: #fff;
+}

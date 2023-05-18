@@ -1,0 +1,164 @@
+.fusion-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+  max-height: calc(100vh - 250px);
+  height: 100%;
+  overflow-y: auto;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 70vh);
+}
+
+.fusion-body-container.fusion-fuse-body-container {
+  height: unset;
+  max-height: unset;
+}
+
+.fusion-body-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.fusion_spinner {
+  position: fixed;
+  left: 53%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+@supports (scrollbar-width: thin) {
+  .fusion-body-container {
+    scrollbar-width: thin;
+  }
+}
+
+.fusion-body-container::-webkit-scrollbar-track {
+  background: #252525;
+  border-radius: 10px;
+}
+
+.fusion-body-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+@supports (scrollbar-color: #252525 #252525) {
+  .fusion-body-container {
+    scrollbar-color: #252525 #000;
+  }
+}
+
+.fusion-next-btn {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  padding: 16px 50px;
+  color: #fff;
+}
+
+.fusion-next-btn:disabled,
+.fusion-next-btn[disabled] {
+  opacity: 0.5;
+}
+
+/* .select-mech-fusion-card {
+  background-color: #c1344f;
+} */
+
+/* fuse css start */
+.fusion-body-container .fuse-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fuse-container .fuse-icon-container {
+  min-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #bd00ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.fuse-desc {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 51px 56px 51px 50px;
+  color: #fff;
+  max-width: 1020px;
+  width: 100%;
+}
+
+.fuse-desc .fuse-desc-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.fuse-desc .fuse-desc-text {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+/* responsive */
+@media(max-width:767px) {
+  .fuse-container .fuse-icon-container {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width:575px) {
+  .fusion-body-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 475px) {
+  .fuse-container .fuse-icon-container {
+    min-width: 36px;
+    height: 36px;
+    margin: 0 0;
+  }
+
+  .fuse-container .fuse-icon-container img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .fusion-next-btn {
+    width: 75%;
+  }
+
+  .fuse-desc {
+    padding: 30px 20px 36px 20px;
+  }
+
+  .fuse-desc .fuse-desc-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .fuse-desc .fuse-desc-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+  }
+
+  .fusion-body-container {
+    height: calc(100vh - 350px);
+  }
+}

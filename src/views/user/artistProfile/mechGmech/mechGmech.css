@@ -1,0 +1,335 @@
+/* card css start*/
+
+.slider_body .slick-slide .gmech_tab {
+  max-width: 1200px;
+  width: 100%;
+  transition: transform 0.3s linear;
+  transition-delay: 0.5s;
+}
+/* //card css over  */
+
+.slick-slide.slick-active.slick-center.slick-current,
+.slick-slide.slick-active.slick-center {
+  z-index: 1;
+}
+
+/* gmech css */
+
+.gmech_body .gmech_box {
+  margin-top: 31px;
+}
+
+.slick-center .gmech_box {
+  cursor: pointer;
+  max-width: 270px;
+  width: 100%;
+  padding: 0;
+}
+
+.slick-center .gmech_img {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gmech_body {
+  width: 90%;
+  margin: 50px auto 0 auto;
+}
+
+.slider_body {
+  width: 78%;
+}
+
+.slider_body .slick-list {
+  height: 450px;
+  margin-top: 20px;
+}
+.gmech_body .slider_body .slick-list {
+  height: 350px;
+}
+.select-nft-btn {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 21px;
+}
+
+.select-nft-btn-container {
+  max-width: 745px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gmech_body .gmechImgContainer {
+  position: relative;
+}
+
+.gmech_body .gmechImgContainer::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.profile-tab-container .gmech_body .slick-slider .gmechImgContainer {
+  min-height: 250px;
+  max-height: 250px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(52, 47, 79, 1); */
+}
+.profile-tab-container .gmech_body .slick-slider .gmechImgContainer::after {
+  height: 150px;
+}
+.profile-tab-container .gmech_body .slick-slider .sale_img.gmech_img {
+  object-fit: cover;
+  margin: auto;
+  max-height: 250px;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gmech_body .gmech_card .gmech_box,
+.gmech_body .mech_card .gmech_box {
+  /* max-width: 100%; */
+  max-width: 270px;
+}
+.gmech_body .gmech_card .slick-slide,
+.gmech_body .mech_card .slick-slide {
+  max-width: 270px;
+}
+.gmech_body .slick-active.slick-center .gmech_card .gmech_box,
+.gmech_body .slick-active.slick-center .mech_card .gmech_box {
+  max-width: 100%;
+  width: 90%;
+}
+.profile-tab-container
+  .gmech_body
+  .slick-slider
+  .slick-active.slick-center
+  .gmech_card
+  .gmechImgContainer,
+.profile-tab-container
+  .gmech_body
+  .slick-slider
+  .slick-active.slick-center
+  .mech_card
+  .gmechImgContainer {
+  transform: scaleY(1.2);
+  transition-delay: 0.4s;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+}
+.mech_detail {
+  width: 90%;
+  margin: 0 auto;
+}
+/* mech css */
+
+.total_mech {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+
+.mech_amt {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mech_stat {
+  background-color: #191919;
+  border-radius: 10px;
+  padding: 23px 41px;
+  max-height: 106px;
+  height: 100%;
+  min-width: 200px;
+}
+/* responsive */
+@media (min-width: 1440px) {
+  .slider_body {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .slider_body .slick-list {
+    height: 405px;
+  }
+}
+@media(max-width:1400px){
+  .gmech_body .slick-slide{
+    max-width: 270px;
+  }
+}
+@media (max-width: 991px) {
+  .slider_body {
+    width: 100%;
+  }
+  .gmech_body {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .select-nft-btn-container {
+    margin-top: 70px;
+  }
+
+  .select-nft-btn-container .select-nft-btn {
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .gmech_body.gmech_screen .slider_body .slick-list {
+    height: 500px;
+  }
+  .gmech_body .slick-active.slick-center .gmech_card .gmech_box,
+  .gmech_body .slick-active.slick-center .mech_card .gmech_box {
+    width: 100%;
+  }
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .gmech_card
+    .gmechImgContainer,
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .mech_card
+    .gmechImgContainer {
+    transform: unset;
+    transition-delay: 0.1s;
+  }
+  .profile-tab-container .gmech_body .slick-slider .gmechImgContainer {
+    min-height: 340px;
+    max-height: 340px;
+  }
+  .profile-tab-container .gmech_body .slick-slider .gmechImgContainer::after {
+    height: 240px;
+  }
+  .profile-tab-container .gmech_body .slick-slider .sale_img.gmech_img {
+    max-height: 340px;
+    height: 340px;
+  }
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .gmech_card
+    .gmechImgContainer,
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .mech_card
+    .gmechImgContainer {
+    min-height: 450px;
+  }
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .gmech_card
+    .sale_img.gmech_img,
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .mech_card
+    .sale_img.gmech_img {
+    max-height: 450px;
+    height: 450px;
+  }
+  .gmech_body.gmech_screen .gmech_box {
+    margin-top: 0;
+  }
+  .gmech_body .slick-slider .slick-active.slick-center .gmechImgContainer::after {
+    height: 250px;
+    top: 200px;
+  }
+}
+@media (max-width: 475px) {
+  .gmech_body.gmech_screen .slider_body .slick-list {
+    height: 400px;
+  }
+
+  .profile-tab-container .gmech_body .slick-slider .gmechImgContainer {
+    min-height: 350px;
+    max-height: 350px;
+  }
+  .profile-tab-container .gmech_body .slick-slider .gmechImgContainer::after {
+    height: 145px;
+  }
+  .profile-tab-container .gmech_body .slick-slider .sale_img.gmech_img {
+    max-height: 350px;
+  }
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .gmech_card
+    .gmechImgContainer,
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .mech_card
+    .gmechImgContainer {
+    min-height: 350px;
+  }
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .gmech_card
+    .sale_img.gmech_img,
+  .profile-tab-container
+    .gmech_body
+    .slick-slider
+    .slick-active.slick-center
+    .mech_card
+    .sale_img.gmech_img {
+    max-height: 350px;
+  }
+
+  .gmech_body .slick-slider .slick-active.slick-center .gmechImgContainer::after {
+    height: 150px;
+  }
+}
+@media (max-width: 375px) {
+}
+@media (min-width: 1400px) {
+  .slider_body .slick-list {
+    height: 430px;
+  }
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1975px) {
+  .gmech_body .slider_body .slick-list {
+    height: 480px;
+  }
+}

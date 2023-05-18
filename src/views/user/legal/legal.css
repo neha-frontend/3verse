@@ -1,0 +1,121 @@
+.about-wrapper-container .cms_content {
+  line-height: 160%;
+  opacity: 1;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about-wrapper-container .sub-header-title {
+  margin-bottom: 0;
+}
+
+.about-bottom-content {
+  font-size: 16px;
+}
+
+.contact-mail-link-p {
+  color: #0d6efd;
+}
+
+.about_text {
+  margin: 10px 15px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.about-img-one-container .about_text {
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-img-container-two .about_text,
+.about-img-container-three .about_text {
+  right: 50px;
+  top: 60px;
+}
+
+.about_text p {
+  max-width: 430px;
+  width: 100%;
+  font-family: 'Conthrax';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0 #1f85e4, 0 0 0 #40a0ef, 0 0 0 #1f85e4, 0 0 40px #1f85e4, 0 0 50px #1f85e4,
+      0 0 60px #1f85e4, 0 0 70px #1f85e4;
+  }
+
+  to {
+    text-shadow: 0 0 0px #fff, 0 0 0px #40a0ef, 0 0 40px #40a0ef, 0 0 50px #40a0ef, 0 0 60px #40a0ef,
+      0 0 70px #40a0ef, 0 0 80px #40a0ef;
+  }
+}
+
+.about_text h2 {
+  font-family: Conthrax;
+  font-size: 50px;
+  font-weight: 600;
+  display: block;
+  animation: glow 3s ease-in-out infinite alternate;
+  color: #34d5ea;
+  text-shadow: 0 0 0 #34d5ea, 0 0 0 #34d5ea, 0 0 0 #34d5ea, 0 0 40px #34d5ea, 0 0 50px #34d5ea, 0 0 60px #34d5ea, 0 0 70px #34d5ea;
+}
+
+.about-img-container-two .about_text p {
+  max-width: 715px;
+}
+
+.about-img-container-three .about_text p {
+  max-width: 430px;
+}
+
+.about-img-container {
+  position: relative;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.about-wrapper-container {
+  padding: 14px 0 47px 0;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .about-img {
+    min-height: 500px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1600px) {
+
+  .about-img-container-two .about_text p {
+    max-width: 500px;
+  }
+
+  .about-img-container-three .about_text p {
+    max-width: 350px;
+  }
+
+  .about_text p {
+    max-width: 310px;
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  .about_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+}

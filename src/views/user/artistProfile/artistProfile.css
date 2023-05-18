@@ -1,0 +1,459 @@
+.artist_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.artist_username {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c82f8;
+}
+
+.artist_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.chat_btn {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 163px;
+  width: 100%;
+  padding: 11px 13px;
+  background-color: #262626;
+  border: none;
+}
+
+.artist_profile {
+  max-width: 100px;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 46px;
+}
+
+.chat_img {
+  max-width: 21px;
+  width: 100%;
+  margin-right: 14px;
+}
+
+.edit_img {
+  max-width: 13px;
+  width: 100%;
+  margin-right: 13px;
+}
+
+.profile_tab {
+  /* display: flex; */
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.profile_tab::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.hidden_collection{
+  margin-top: 100px;
+}
+
+@supports (scrollbar-width: none) {
+  .profile_tab {
+    scrollbar-width: none;
+  }
+}
+
+.profile_tab .tablinks {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-right: 50px;
+}
+
+.profile_tab .tablinks.active {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border-bottom: 3px solid #3c82f8;
+  opacity: unset;
+}
+
+.profile-tab-container {
+  margin: 50px 0 0px 0;
+}
+
+.read_more {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c82f8;
+}
+
+.game_stat_content_div {
+  margin-bottom: 20px;
+}
+
+.chat-edit-btn-container {
+  min-width: 270px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.cadet_profile_tab {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.ability_body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gmech_body .slick-arrow {
+  left: 47%;
+  transform: translateX(-50%);
+  top: unset;
+  bottom: -45px;
+}
+
+.gmech_body .slick-arrow.slick-next {
+  margin-left: 70px;
+}
+.slick-slider .slick-active.slick-center .gmech_card .nftDetails,
+.slick-slider .slick-active.slick-center .gmech_box .nftDetails,
+.slick-slider .slick-active.slick-center .gmech_card .mechType {
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.ability_body .infinite-scroll-component__outerdiv {
+  /* max-width: 950px; */
+  width: 100%;
+  margin: 0 auto;
+}
+.profile-tab-container .gmechImgContainer {
+  min-height: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(214, 156, 160, 1); */
+}
+.profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+  width: 100%;
+  max-height: 250px;
+  height: auto;
+  object-fit: cover;
+  margin: auto;
+}
+
+.profile-tab-container .marketplace_box.sale_box.gmech_box {
+  margin-bottom: 50px;
+  padding: 0px;
+}
+.gmech_screen .nftDetails,
+.gmech_screen .mechType {
+  width: 90%;
+  margin: 0 auto;
+}
+/* responsive */
+/* @media (max-width: 1475px) {
+  .ability_body {
+    max-width: 890px;
+    width: 100%;
+    margin: 0 auto;
+  }
+} */
+
+@media (min-width: 992px) {
+  /* .ability_body .ability_card {
+    width: 33.3333%;
+  }
+
+  .artist_desc {
+    width: unset;
+  } */
+}
+
+@media (max-width: 1400px) {
+  .artist_desc {
+    width: 690px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .artist_profile {
+    margin-right: 20px;
+  }
+
+  .chat-edit-btn-container {
+    width: 60%;
+  }
+
+  .cd_head {
+    margin-top: 20px;
+  }
+
+  .mech_stat {
+    max-height: 100%;
+  }
+
+  .artist_desc {
+    width: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .gmech_detail_body {
+    margin-top: 60px;
+  }
+
+  .chat-edit-btn-container {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .artist_profile {
+    max-width: 80px;
+    height: 80px;
+  }
+
+  .artist_name {
+    margin-top: 15px;
+  }
+
+  .artist_desc {
+    margin-top: 80px;
+    margin-left: -100px;
+  }
+
+  .chat_btn {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .stat_detail {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .gmech_body {
+    margin: 40px 0 0 0;
+  }
+
+  .mech_stat {
+    margin-top: 70px;
+  }
+
+  .total_mech {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 771px) {
+  .game_stat {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .profile-tab-container .gmechImgContainer {
+    min-height: 340px;
+    max-height: 340px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 340px;
+  }
+  .gmech_screen .nftDetails, .gmech_screen .mechType{
+    width:100%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .sale_img,
+  .sale_box {
+    max-width: 100%;
+  }
+
+  .sale_box {
+    padding: 20px 0;
+  }
+
+  /* .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    object-fit: cover;
+    height: 400px;
+  } */
+}
+
+@media (max-width: 475px) {
+  .gmech_body .slick-arrow{
+    left:40%;
+  }
+  .game_stat {
+    overflow: hidden;
+    word-break: break-all;
+    padding: 10px;
+  }
+  .gmech_body{
+    margin:0 0 0 0;
+  }
+  .stat_head {
+    min-width: 150px;
+  }
+  .profile-tab-container .gmechImgContainer {
+    min-height: 320px;
+    max-height: 320px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 320px;
+  }
+}
+@media (max-width:375px){
+  .profile-tab-container .gmechImgContainer {
+    min-height: 250px;
+    max-height: 250px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 250px;
+  }
+}
+@media (min-width: 1400px) {
+  .profile-tab-container .gmechImgContainer {
+    min-height: 300px;
+    max-height: 300px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 300px;
+  }
+}
+@media (min-width: 1475px) {
+  .chat_btn {
+    max-width: 300px;
+  }
+
+  .game_stat {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .ability_body {
+    max-width: 1400px;
+  }
+
+  .ability_body .infinite-scroll-component__outerdiv {
+    max-width: 100%;
+  }
+  .profile-tab-container .gmechImgContainer {
+    min-height: 340px;
+    max-height: 340px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 340px;
+  }
+  .market_heart_icon {
+    max-width: 20px;
+    height: 24px;
+  }
+
+  .chat_btn {
+    font-size: 18px;
+    height: 50px;
+  }
+  .sale_card.gmech_tab,.ability_card.gmech_tab{
+    padding-right: 20px;
+  }
+  .artist_desc,
+  .artist_username,
+  .read_more,
+  .profile_tab .tablinks.active,
+  .profile_tab .tablinks {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .artist_profile {
+    max-width: 135px;
+    height: 135px;
+  }
+
+  .artist_name,
+  .gmech_head,
+  .stat_detail {
+    font-size: 22px;
+  }
+
+  .stat_head,
+  .likes,
+  .nft_cost,
+  .mech_type {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1975px) {
+  .profile-tab-container .gmechImgContainer {
+    min-height: 400px;
+    max-height: 400px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 400px;
+  }
+}
+@media (min-width: 2075px) {
+  /* .profile-tab-container .gmechImgContainer {
+    height: 490px;
+  } */
+}
+
+@media (min-width: 3000px) {
+  .gmech_body .slick-arrow.slick-next{
+    margin-left: 120px;
+  }
+}
+@media (min-width: 4000px) {
+  .profile-tab-container .gmechImgContainer {
+    min-height: 580px;
+    max-height: 580px;
+  }
+  .profile-tab-container .gmechImgContainer .sale_img.gmech_img {
+    max-height: 580px;
+  }
+  .stat_head,
+  .likes,
+  .nft_cost,
+  .mech_type {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .artist_name, .gmech_head, .stat_detail{
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .market_heart_icon {
+    max-width: 40px;
+    height: 44px;
+  }
+}

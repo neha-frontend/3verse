@@ -1,0 +1,26 @@
+.fusion-container-heading {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.form-steps-containter {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+}
+
+.form-steps-containter .form-step {
+  width: 100px;
+  height: 280px;
+  height: 6px;
+  border-radius: 10px;
+  background: #555;
+}
+
+.form-steps-containter .form-step > span {
+  background: linear-gradient(114.13deg, #5df1ff 1.42%, #3c82f8 28.05%);
+}
